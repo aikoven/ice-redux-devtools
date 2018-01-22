@@ -1,0 +1,31 @@
+{
+  "name": "ice-redux-devtools",
+  "version": "0.1.0",
+  "description": "Redux DevTools Extension add-on that handles serialization of ZeroC Ice stuff",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "author": "Daniel Lytkin <dan.lytkin@gmail.com>",
+  "license": "GPL-2.0",
+  "repository": "aikoven/ice-redux-devtools",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "prepare": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "ice-to-plain": "^0.1.0"
+  },
+  "peerDependencies": {
+    "redux-devtools-extension": "^2.13.2"
+  },
+  "devDependencies": {
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.2"
+  }
+}
