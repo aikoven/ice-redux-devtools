@@ -1,6 +1,6 @@
 {
   "name": "ice-redux-devtools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Redux DevTools Extension add-on that handles serialization of ZeroC Ice stuff",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
